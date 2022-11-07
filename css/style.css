@@ -1,0 +1,146 @@
+/* 给<p class="paragraph" id="para1">写css：
+	1. p{color:red;} 
+	2. .paragraph{color:red;}
+	3. #para1{color:red;}*/
+
+body{
+	background-color: #f4f4f4;
+	color:#555555;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
+	font-weight: normal;
+	/* font: bold 16px 'Times New Roman', Times, serif; */
+	line-height: 1.5em;
+}
+
+button{
+	background-color: #444444;
+	color:#fff;
+	padding:10px 15px;
+}
+
+button:hover{
+	background-color: red;
+}
+
+button:active{
+	background-color: #fff;
+}
+
+a{
+	text-decoration: none;
+	color:#555555;
+}
+
+a:hover{
+	color:cyan;
+}
+
+a:visited{
+	color:red;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.box1 {
+	background-color: antiquewhite;
+	color:blueviolet;
+	border-top: 10px green dotted;
+	border-right: 5px red solid;
+	border-bottom: 1px firebrick double;
+	border-bottom-width: 10px;
+	border-bottom-style: dashed;
+
+	padding-top:10px;
+	margin-top:20px;
+}
+
+.box1 h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: capitalize;
+	letter-spacing: 1em;
+	word-spacing: 2em;
+}
+
+.box2{
+	border: 5px dotted #cccccc;
+	padding:20px;
+	margin:20px 0;
+	border-radius: 15px;
+	position: relative;
+	top:30px;
+	left:30px;
+}
+
+.box2 h1{
+	text-align: center;
+}
+
+.containor{
+	width: 80%;
+	margin:auto;
+}
+
+.list li{
+	list-style: square;
+	list-style-image: url(../img/check.png);
+}
+
+.block{
+	float:left;
+	width: 33.3%;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+#main-block{
+	float: left;
+	width: 70%;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.list2 li:nth-child(even){
+	background-color: gray;
+}
+
+.list2 li:first-child{
+	background-color: red;
+}
+
+.list2 li:nth-child(3){
+	color:#cccccc;
+}
+
+.position-box{
+	width:500px;
+	height:500px;
+	border:1px solid black;
+	position: relative;
+}
+
+.position-box h1{
+	position: absolute;
+	top:50px;
+}
+.position-box h2{
+	position: absolute;
+	right:30px;
+}
+
+#fixed{
+	position:fixed;
+	right:0px;
+	bottom:0px;
+}
